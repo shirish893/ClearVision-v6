@@ -59,7 +59,7 @@
   --home-size: 40px; /* home button icon size [default: 40px] */
 
   /* CHANNEL COLORS */
-  --channel-unread: rgba(255, 255, 255, 1); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
+  --channel-unread: var(--main-color); /* Unread Server channel color. [default:  var(--main-color)] THIS OVERRIDES YOUR MAIN COLOR*/
   --channel-color: rgba(255, 255, 255, 0.7); /*Read Server channel color  [default: rgba(255,255,255,0.3);]*/
   --channel-text-selected: #fff; /* Selected channel text color, CV default is #fff */
   --muted-color: rgba(255, 255, 255, 0.3); /*Muted channel color  [default: rgba(255,255,255,0.1);]*/
