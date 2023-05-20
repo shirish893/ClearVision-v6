@@ -16,7 +16,7 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: rgb(255, 255, 255); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
   --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
@@ -112,4 +112,16 @@
   --bd-blue: var(--main-color); /* betterdiscord main color [default: var(--main-color)] */
   --bd-blue-hover: var(--hover-color); /* betterdiscord hover color [default: var(--hover-color)] */
   --bd-blue-active: var(--hover-color); /* betterdiscord active color [default: var(--hover-color)] */
+}
+
+/* Text Color */
+.sidebar-1tnWFu .containerDefault-3TQ5YN .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragAfter-1J_-1V .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerDragBefore-ei4h1m .wrapper-1S43wv .name-3BUDLf, .sidebar-1tnWFu .containerUserOver-3woq86 .wrapper-1S43wv .name-3BUDLf {
+    color: #a4ceff;   //change this to your color
+}
+/* Line Color */
+.name-3BUDLf:before {
+    background: linear-gradient(to left, var(--main-color) 50%, transparent); //change color in this
+}
+.name-3BUDLf:after {
+    background: linear-gradient(to right, var(--main-color) 50%, transparent); //change color in this
 }
