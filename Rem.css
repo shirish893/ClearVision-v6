@@ -4,6 +4,9 @@
  @import url(https://clearvision.github.io/ClearVision-v6/main.css);
  @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
  @import url("https://raw.githubusercontent.com/KamisamaV1/ClearVision-v6/master/CustomCSS.css");
+ .avatar-1EWyVD .pointerEvents-2KjWnj {
+     stroke-width: 0 !important;
+}
 /* SETTINGS */
  :root {
     /* ACCENT COLORS */
@@ -177,15 +180,15 @@
     /* RADIAL STATUS */
      --rs-small-spacing: 2px;
     /* Gap between avatar and status for members list/dms | MUST end in px */
-     --rs-medium-spacing: 3px;
+     --rs-medium-spacing: 2px;
     /* Gap between avatar and status for User popout | MUST end in px */
-     --rs-large-spacing: 4px;
+     --rs-large-spacing: 2px;
     /* Gap between avatar and status for User profiles | MUST end in px */
-     --rs-small-width: 3px;
+     --rs-small-width: 2px;
     /* Thickness of status border for members list/dms | MUST end in px */
-     --rs-medium-width: 3px;
+     --rs-medium-width: 2px;
     /* Thickness of status border for User popout | MUST end in px */
-     --rs-large-width: 4px;
+     --rs-large-width: 2px;
     /* Thickness of status border for User profile | MUST end in px */
      --rs-avatar-shape: 50%;
     /* 50% for round - 0% for square */
