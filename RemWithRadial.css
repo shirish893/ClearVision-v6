@@ -5,10 +5,6 @@
  @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
  @import url("https://raw.githubusercontent.com/KamisamaV1/ClearVision-v6/master/CustomCSS.css");
  
- .avatar-1EWyVD .pointerEvents-2KjWnj {
-     stroke-width: 0 !important;
-}
-
 #app-mount .wrapper-3Un6-K {
   border-radius: var(--rs-avatar-shape);
 }
